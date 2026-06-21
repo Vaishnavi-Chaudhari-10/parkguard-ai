@@ -39,7 +39,7 @@ By transforming raw parking violation records into actionable insights, SmartPar
 ## 📊 Sample Dashboard Preview
 
 ### Heatmap View
-![Heatmap](screenshots/heatmap.png)
+![Heatmap](heatmap.png)
 
 ### Analytics Dashboard
 ![Analytics](screenshots/analytics.png)
