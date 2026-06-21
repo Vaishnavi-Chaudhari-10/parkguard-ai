@@ -94,19 +94,23 @@ The app is deployed on **Streamlit Cloud** and is accessible 24/7.
 
 ## 📁 Project Structure
 SmartParkAI/
-├── app.py # Main Streamlit application
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-├── LICENSE # MIT License
-├── .gitignore # Git ignore file
+├── app.py                    # Main Streamlit application
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+├── LICENSE                   # MIT License
+├── .gitignore               # Git ignore file
 ├── data/
-│ └── parking.csv # Parking violation dataset (104 MB)
-├── screenshots/ # App screenshots for documentation
-│ ├── heatmap.png
-│ ├── analytics.png
-│ └── ranking.png
+│   └── parking.csv          # Parking violation dataset
+├── screenshots/             # App screenshots
+│   ├── dashboard.png
+│   ├── insights.png
+│   ├── hotspots.png
+│   ├── map.png
+│   ├── heatmap.png
+│   ├── risk_forecast.png
+│   └── recommendations.png
 └── .streamlit/
-└── config.toml # Streamlit configuration
+    └── config.toml          # Streamlit configuration
 
 
 
