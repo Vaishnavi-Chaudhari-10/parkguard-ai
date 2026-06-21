@@ -36,6 +36,14 @@ By transforming raw parking violation records into actionable insights, SmartPar
 
 ---
 
+## 🚀 Live Demo
+
+**🌐 [View Live App](https://parkguard-ai.streamlit.app/)**
+
+The app is deployed on **Streamlit Cloud** and is accessible 24/7.
+
+---
+
 ## 📊 Sample Dashboard Preview
 
 ### Heatmap View
@@ -127,10 +135,3 @@ The dataset contains **parking violation records** from Bengaluru with:
 
 ---
 
-## 🚀 Live Demo
-
-**🌐 [View Live App](https://parkguard-ai.streamlit.app/)**
-
-The app is deployed on **Streamlit Cloud** and is accessible 24/7.
-
----
