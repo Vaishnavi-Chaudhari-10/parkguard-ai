@@ -93,6 +93,8 @@ The app is deployed on **Streamlit Cloud** and is accessible 24/7.
 ---
 
 ## 📁 Project Structure
+
+```
 SmartParkAI/
 ├── app.py                    # Main Streamlit application
 ├── requirements.txt          # Python dependencies
@@ -111,7 +113,7 @@ SmartParkAI/
 │   └── recommendations.png
 └── .streamlit/
     └── config.toml          # Streamlit configuration
-
+```
 
 
 ---
