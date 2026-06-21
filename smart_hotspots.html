@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3cc97fb9e4c7bedda0ab455a4627e239 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3cc97fb9e4c7bedda0ab455a4627e239" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3cc97fb9e4c7bedda0ab455a4627e239 = L.map(
+                "map_3cc97fb9e4c7bedda0ab455a4627e239",
+                {
+                    center: [12.9716, 77.5946],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a22742a02950978703aeb319b0a8d838 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a22742a02950978703aeb319b0a8d838.addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+            var circle_marker_77a050d57150227cfc4367c37b41e737 = L.circleMarker(
+                [13.185700367188263, 77.68003697254278],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.633333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_eb219d7ee92c54231c219fdeb116e8d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d0d9daac7a205c071693d7066d20181 = $(`<div id="html_4d0d9daac7a205c071693d7066d20181" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>Unnamed Road, Begur Chikkanahalli, Bengaluru, Karnataka. Pin-562149 (India)<br><br>          <b>Total Violations:</b> 4090.0<br>          <b>Risk Level:</b> High Risk         </div>`)[0];
+                popup_eb219d7ee92c54231c219fdeb116e8d6.setContent(html_4d0d9daac7a205c071693d7066d20181);
+            
+        
+
+        circle_marker_77a050d57150227cfc4367c37b41e737.bindPopup(popup_eb219d7ee92c54231c219fdeb116e8d6)
+        ;
+
+        
+    
+    
+            var circle_marker_918abe7a6fb41aad8ea78daeb9789657 = L.circleMarker(
+                [12.981556165039866, 77.61030151807981],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.33, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_4a1c3abfd04608d32b3ae824a9dba134 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0c79bb6ae170ba811a220688c5e8f77 = $(`<div id="html_f0c79bb6ae170ba811a220688c5e8f77" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>Kamaraj Road, Sri Nagamma Devi Circle, Sivanchetti Gardens, Bengaluru, Karnataka. Pin-560042 (India)<br><br>          <b>Total Violations:</b> 3999.0<br>          <b>Risk Level:</b> High Risk         </div>`)[0];
+                popup_4a1c3abfd04608d32b3ae824a9dba134.setContent(html_f0c79bb6ae170ba811a220688c5e8f77);
+            
+        
+
+        circle_marker_918abe7a6fb41aad8ea78daeb9789657.bindPopup(popup_4a1c3abfd04608d32b3ae824a9dba134)
+        ;
+
+        
+    
+    
+            var circle_marker_d8bd1b4941490f44966953d6fed39ae2 = L.circleMarker(
+                [12.933819366718264, 77.69089953928616],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.616666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_6a62717194e1be769e43a7198926e734 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ef7d2cef0fc90379950f36c563a8171 = $(`<div id="html_0ef7d2cef0fc90379950f36c563a8171" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>New Horizon College Road, New Horizon College of Engineering, Kadubisanahalli, Bengaluru, Karnataka. Pin-560103 (India)<br><br>          <b>Total Violations:</b> 3785.0<br>          <b>Risk Level:</b> High Risk         </div>`)[0];
+                popup_6a62717194e1be769e43a7198926e734.setContent(html_0ef7d2cef0fc90379950f36c563a8171);
+            
+        
+
+        circle_marker_d8bd1b4941490f44966953d6fed39ae2.bindPopup(popup_6a62717194e1be769e43a7198926e734)
+        ;
+
+        
+    
+    
+            var circle_marker_090d620d77ff75075ade3d240eadde0c = L.circleMarker(
+                [13.008264684164457, 77.69511907074143],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.09, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_e7b658015ff41644eefd7f7ca4c26087 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12662e1e2ff4e97163223f522ab1bc35 = $(`<div id="html_12662e1e2ff4e97163223f522ab1bc35" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>MBT Road, Devasandra Junction, KR Puram, Bengaluru, Karnataka. Pin-560036 (India)<br><br>          <b>Total Violations:</b> 3027.0<br>          <b>Risk Level:</b> Medium Risk         </div>`)[0];
+                popup_e7b658015ff41644eefd7f7ca4c26087.setContent(html_12662e1e2ff4e97163223f522ab1bc35);
+            
+        
+
+        circle_marker_090d620d77ff75075ade3d240eadde0c.bindPopup(popup_e7b658015ff41644eefd7f7ca4c26087)
+        ;
+
+        
+    
+    
+            var circle_marker_0bfbb7ac7662d3bef6902481ec760b94 = L.circleMarker(
+                [12.981604450246351, 77.60827094966582],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.9, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_4dfa54702170700e9b1e667773ea3961 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f57125e34d6643c22cda1cbfaf14c305 = $(`<div id="html_f57125e34d6643c22cda1cbfaf14c305" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>Dispensary Road, Tasker Town, Shivaji Nagar, Bengaluru, Karnataka. Pin-560001 (India)<br><br>          <b>Total Violations:</b> 2670.0<br>          <b>Risk Level:</b> Medium Risk         </div>`)[0];
+                popup_4dfa54702170700e9b1e667773ea3961.setContent(html_f57125e34d6643c22cda1cbfaf14c305);
+            
+        
+
+        circle_marker_0bfbb7ac7662d3bef6902481ec760b94.bindPopup(popup_4dfa54702170700e9b1e667773ea3961)
+        ;
+
+        
+    
+    
+            var circle_marker_fa5e0d0dc01469b097a11450712d06fd = L.circleMarker(
+                [13.035338682167392, 77.58902587617636],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.796666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_886ba5dd38d048b7fcca0ce40762517b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b42104d7bf64eb995b53a674aefbe0c = $(`<div id="html_0b42104d7bf64eb995b53a674aefbe0c" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>Bellary Road, Vinayaka Nagar, Hebbal, Bengaluru, Karnataka. Pin-560024 (India)<br><br>          <b>Total Violations:</b> 2639.0<br>          <b>Risk Level:</b> Medium Risk         </div>`)[0];
+                popup_886ba5dd38d048b7fcca0ce40762517b.setContent(html_0b42104d7bf64eb995b53a674aefbe0c);
+            
+        
+
+        circle_marker_fa5e0d0dc01469b097a11450712d06fd.bindPopup(popup_886ba5dd38d048b7fcca0ce40762517b)
+        ;
+
+        
+    
+    
+            var circle_marker_9b4f97dbab374646f82ec0f728b2c086 = L.circleMarker(
+                [12.97642012887865, 77.57735214934715],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.68, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_15d32f352210f859fd8ab503cddc8bd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcee564d58388307e98881a67bc7ba68 = $(`<div id="html_fcee564d58388307e98881a67bc7ba68" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>5th Main Road, Kempe Gowda Circle, Gandhi Nagar, Bengaluru, Karnataka. Pin-560009 (India)<br><br>          <b>Total Violations:</b> 2604.0<br>          <b>Risk Level:</b> Medium Risk         </div>`)[0];
+                popup_15d32f352210f859fd8ab503cddc8bd3.setContent(html_fcee564d58388307e98881a67bc7ba68);
+            
+        
+
+        circle_marker_9b4f97dbab374646f82ec0f728b2c086.bindPopup(popup_15d32f352210f859fd8ab503cddc8bd3)
+        ;
+
+        
+    
+    
+            var circle_marker_26e393e1b8e63029a5ebc74e9a53df5b = L.circleMarker(
+                [12.980306814593959, 77.60743220145154],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.496666666666666, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_5573ee32dc079b3855dd90736a8c22aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_512210671a2cb9e2f3e41babad7e9422 = $(`<div id="html_512210671a2cb9e2f3e41babad7e9422" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>Main Guard Cross Road, Tasker Town, Shivaji Nagar, Bengaluru, Karnataka. Pin-560001 (India)<br><br>          <b>Total Violations:</b> 2549.0<br>          <b>Risk Level:</b> Medium Risk         </div>`)[0];
+                popup_5573ee32dc079b3855dd90736a8c22aa.setContent(html_512210671a2cb9e2f3e41babad7e9422);
+            
+        
+
+        circle_marker_26e393e1b8e63029a5ebc74e9a53df5b.bindPopup(popup_5573ee32dc079b3855dd90736a8c22aa)
+        ;
+
+        
+    
+    
+            var circle_marker_e0aae3ce7171009ebc3866d7992d5cd0 = L.circleMarker(
+                [12.932953374975527, 77.69131687080935],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.053333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_252308a1b3817ea396cfdb26de856bcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccfc5ed69d320168096950c46b289494 = $(`<div id="html_ccfc5ed69d320168096950c46b289494" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>New Horizon College Road, Embassy Tech Village, Devara Beesana Halli, Bengaluru, Karnataka. Pin-560103 (India)<br><br>          <b>Total Violations:</b> 2416.0<br>          <b>Risk Level:</b> Low Risk         </div>`)[0];
+                popup_252308a1b3817ea396cfdb26de856bcb.setContent(html_ccfc5ed69d320168096950c46b289494);
+            
+        
+
+        circle_marker_e0aae3ce7171009ebc3866d7992d5cd0.bindPopup(popup_252308a1b3817ea396cfdb26de856bcb)
+        ;
+
+        
+    
+    
+            var circle_marker_4feea8d6f99811cef491a2d1edad203e = L.circleMarker(
+                [12.973254427645788, 77.57917115870411],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.716666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_7b0912ad67992e19da1433103c682e69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6288f968c9b527af9cfe9881597ecf58 = $(`<div id="html_6288f968c9b527af9cfe9881597ecf58" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>3rd Cross Road, Kempegowda Extension, Chickpete, Bengaluru, Karnataka. Pin-560009 (India)<br><br>          <b>Total Violations:</b> 2315.0<br>          <b>Risk Level:</b> Low Risk         </div>`)[0];
+                popup_7b0912ad67992e19da1433103c682e69.setContent(html_6288f968c9b527af9cfe9881597ecf58);
+            
+        
+
+        circle_marker_4feea8d6f99811cef491a2d1edad203e.bindPopup(popup_7b0912ad67992e19da1433103c682e69)
+        ;
+
+        
+    
+    
+            var circle_marker_5c903b6e0869b6bf4964f5a944db4e6d = L.circleMarker(
+                [12.964653865165191, 77.5761055860051],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.073333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_90c9ba0d32e56f12f1fc59fdd3688117 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6e9fc127f6f7deae95d80ba9af98f62 = $(`<div id="html_c6e9fc127f6f7deae95d80ba9af98f62" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>Mysore Road, Sri Krishna Rajendra Market, Chickpete, Bengaluru, Karnataka. Pin-560002 (India)<br><br>          <b>Total Violations:</b> 2122.0<br>          <b>Risk Level:</b> Low Risk         </div>`)[0];
+                popup_90c9ba0d32e56f12f1fc59fdd3688117.setContent(html_c6e9fc127f6f7deae95d80ba9af98f62);
+            
+        
+
+        circle_marker_5c903b6e0869b6bf4964f5a944db4e6d.bindPopup(popup_90c9ba0d32e56f12f1fc59fdd3688117)
+        ;
+
+        
+    
+    
+            var circle_marker_5b90f14bb533c0b052b2d93707665eaf = L.circleMarker(
+                [13.01147203854511, 77.55448088880492],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.056666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_ad11dc3bb43c03c032f8c8048476b42b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c01e4be9565559ff66058c46b563f032 = $(`<div id="html_c01e4be9565559ff66058c46b563f032" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>80 Feet Ring Road, Orion, Brigade Gateway, Malleshwaram West, Bengaluru, Karnataka. Pin-560055 (India)<br><br>          <b>Total Violations:</b> 2117.0<br>          <b>Risk Level:</b> Low Risk         </div>`)[0];
+                popup_ad11dc3bb43c03c032f8c8048476b42b.setContent(html_c01e4be9565559ff66058c46b563f032);
+            
+        
+
+        circle_marker_5b90f14bb533c0b052b2d93707665eaf.bindPopup(popup_ad11dc3bb43c03c032f8c8048476b42b)
+        ;
+
+        
+    
+    
+            var circle_marker_4ae5d8cf49f36c828b9a5da15e8e6881 = L.circleMarker(
+                [12.984188791331123, 77.60331432074845],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.036666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_dfd5813b3c5f8a4b74b58720c5181a7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c170aa523a9e774e21398bd64a66d35 = $(`<div id="html_0c170aa523a9e774e21398bd64a66d35" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>Meenakshi Koil Street, Shivaji Nagar, Bengaluru, Karnataka. Pin-560001 (India)<br><br>          <b>Total Violations:</b> 2111.0<br>          <b>Risk Level:</b> Low Risk         </div>`)[0];
+                popup_dfd5813b3c5f8a4b74b58720c5181a7a.setContent(html_0c170aa523a9e774e21398bd64a66d35);
+            
+        
+
+        circle_marker_4ae5d8cf49f36c828b9a5da15e8e6881.bindPopup(popup_dfd5813b3c5f8a4b74b58720c5181a7a)
+        ;
+
+        
+    
+    
+            var circle_marker_68e194c54bb5d4b8c1d21ea1a496fff9 = L.circleMarker(
+                [12.977575607164948, 77.57553172371134],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.466666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_499dcdd1a50d563c3232672dd7279c0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_750499a08697d4eebc30789a03927f58 = $(`<div id="html_750499a08697d4eebc30789a03927f58" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>Subedar Chatram Road, RK Puram, Gandhi Nagar, Bengaluru, Karnataka. Pin-560009 (India)<br><br>          <b>Total Violations:</b> 1940.0<br>          <b>Risk Level:</b> Low Risk         </div>`)[0];
+                popup_499dcdd1a50d563c3232672dd7279c0e.setContent(html_750499a08697d4eebc30789a03927f58);
+            
+        
+
+        circle_marker_68e194c54bb5d4b8c1d21ea1a496fff9.bindPopup(popup_499dcdd1a50d563c3232672dd7279c0e)
+        ;
+
+        
+    
+    
+            var circle_marker_f1641a744a1e2f5a3bbcf7e6eca6c4aa = L.circleMarker(
+                [12.980980686954263, 77.61040720514553],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.413333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_26160954f7436d99f0f6fdbc8aadd02b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8508603a40dc7bbec54c1293346bcab5 = $(`<div id="html_8508603a40dc7bbec54c1293346bcab5" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>Dickenson Road, Sri Nagamma Devi Circle, Sivanchetti Gardens, Bengaluru, Karnataka. Pin-560042 (India)<br><br>          <b>Total Violations:</b> 1924.0<br>          <b>Risk Level:</b> Low Risk         </div>`)[0];
+                popup_26160954f7436d99f0f6fdbc8aadd02b.setContent(html_8508603a40dc7bbec54c1293346bcab5);
+            
+        
+
+        circle_marker_f1641a744a1e2f5a3bbcf7e6eca6c4aa.bindPopup(popup_26160954f7436d99f0f6fdbc8aadd02b)
+        ;
+
+        
+    
+    
+            var circle_marker_dc7179d4a6e0c15089ec32dd7eaa2684 = L.circleMarker(
+                [12.974376936971641, 77.5454060458534],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.23, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_b406af9641fb65d309a8ba883afc7991 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c7bd8fa14f74f08ba7040420c59e2f4 = $(`<div id="html_5c7bd8fa14f74f08ba7040420c59e2f4" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>Chord Road, Manuvana, Vijaya Nagar, Bengaluru, Karnataka. Pin-560040 (India)<br><br>          <b>Total Violations:</b> 1869.0<br>          <b>Risk Level:</b> Low Risk         </div>`)[0];
+                popup_b406af9641fb65d309a8ba883afc7991.setContent(html_5c7bd8fa14f74f08ba7040420c59e2f4);
+            
+        
+
+        circle_marker_dc7179d4a6e0c15089ec32dd7eaa2684.bindPopup(popup_b406af9641fb65d309a8ba883afc7991)
+        ;
+
+        
+    
+    
+            var circle_marker_65e853541bc72db9cf4e5c5d5806bf22 = L.circleMarker(
+                [12.96496208939866, 77.53861853500737],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.19, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_d0552f4a1403aa01b67d39fd69ca7c5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e435b9455a80f790af8981539756c69c = $(`<div id="html_e435b9455a80f790af8981539756c69c" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>Sri Sankasta Hara Ganapati Temple Road, RPC Layout, Vijaya Nagar Stage 2, Bengaluru, Karnataka. Pin-560104 (India)<br><br>          <b>Total Violations:</b> 1857.0<br>          <b>Risk Level:</b> Low Risk         </div>`)[0];
+                popup_d0552f4a1403aa01b67d39fd69ca7c5c.setContent(html_e435b9455a80f790af8981539756c69c);
+            
+        
+
+        circle_marker_65e853541bc72db9cf4e5c5d5806bf22.bindPopup(popup_d0552f4a1403aa01b67d39fd69ca7c5c)
+        ;
+
+        
+    
+    
+            var circle_marker_3c2ad29376813643f797acb05f2160ac = L.circleMarker(
+                [12.977299144741236, 77.57647181942126],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.99, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_1edf0f46f189a1d4d28fc2f55d319df5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70032695460324d94aa94c650001687d = $(`<div id="html_70032695460324d94aa94c650001687d" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>6th Main Road, RK Puram, Gandhi Nagar, Bengaluru, Karnataka. Pin-560009 (India)<br><br>          <b>Total Violations:</b> 1797.0<br>          <b>Risk Level:</b> Low Risk         </div>`)[0];
+                popup_1edf0f46f189a1d4d28fc2f55d319df5.setContent(html_70032695460324d94aa94c650001687d);
+            
+        
+
+        circle_marker_3c2ad29376813643f797acb05f2160ac.bindPopup(popup_1edf0f46f189a1d4d28fc2f55d319df5)
+        ;
+
+        
+    
+    
+            var circle_marker_2de991a8308ae194f9b51af9f84ef072 = L.circleMarker(
+                [13.071059593398578, 77.58788809953528],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.81, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_17be631aab366af7d90edc4835940fa0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57ffa819d329fe9d61bfab6e597913bf = $(`<div id="html_57ffa819d329fe9d61bfab6e597913bf" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>Sahakar Nagar Road, Fortuna Acacia, Byatarayanapura, Bengaluru, Karnataka. Pin-560092 (India)<br><br>          <b>Total Violations:</b> 1743.0<br>          <b>Risk Level:</b> Low Risk         </div>`)[0];
+                popup_17be631aab366af7d90edc4835940fa0.setContent(html_57ffa819d329fe9d61bfab6e597913bf);
+            
+        
+
+        circle_marker_2de991a8308ae194f9b51af9f84ef072.bindPopup(popup_17be631aab366af7d90edc4835940fa0)
+        ;
+
+        
+    
+    
+            var circle_marker_fd220b40c375a27bc6c4cb32a057293b = L.circleMarker(
+                [12.964665877763244, 77.58403156304774],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.096666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_3cc97fb9e4c7bedda0ab455a4627e239);
+        
+    
+        var popup_ca4bb2d6bda965b41100818521a8e4c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02cb577faeca8b0ffed7e3a4fb6b6abf = $(`<div id="html_02cb577faeca8b0ffed7e3a4fb6b6abf" style="width: 100.0%; height: 100.0%;">         <b>Location:</b><br>Pailwan M Krishnappa Road, Shoukath Mohalla, Nagartapete, Bengaluru, Karnataka. Pin-560002 (India)<br><br>          <b>Total Violations:</b> 1529.0<br>          <b>Risk Level:</b> Low Risk         </div>`)[0];
+                popup_ca4bb2d6bda965b41100818521a8e4c4.setContent(html_02cb577faeca8b0ffed7e3a4fb6b6abf);
+            
+        
+
+        circle_marker_fd220b40c375a27bc6c4cb32a057293b.bindPopup(popup_ca4bb2d6bda965b41100818521a8e4c4)
+        ;
+
+        
+    
+</script>
+</html>
