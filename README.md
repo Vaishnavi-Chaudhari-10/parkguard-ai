@@ -44,8 +44,8 @@ By transforming raw parking violation records into actionable insights, SmartPar
 ### Dashboard Summary
 ![Dashboard Summary](dashboard_summary.png)
 
-### Police Station Ranking
-![Ranking](screenshots/ranking.png)
+### Hotspot Detection
+![Hotspots](hotspots.png)
 
 ---
 
