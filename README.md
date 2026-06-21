@@ -85,3 +85,52 @@ By transforming raw parking violation records into actionable insights, SmartPar
 ---
 
 ## 📁 Project Structure
+SmartParkAI/
+├── app.py # Main Streamlit application
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+├── LICENSE # MIT License
+├── .gitignore # Git ignore file
+├── data/
+│ └── parking.csv # Parking violation dataset (104 MB)
+├── screenshots/ # App screenshots for documentation
+│ ├── heatmap.png
+│ ├── analytics.png
+│ └── ranking.png
+└── .streamlit/
+└── config.toml # Streamlit configuration
+
+
+
+---
+
+## 📊 Dataset Information
+
+The dataset contains **parking violation records** from Bengaluru with:
+
+| Field | Description |
+|-------|-------------|
+| `id` | Unique violation identifier |
+| `latitude` / `longitude` | Geolocation of violation |
+| `vehicle_type` | CAR, SCOOTER, AUTO, TANKER, etc. |
+| `violation_type` | NO PARKING, WRONG PARKING, DOUBLE PARKING, etc. |
+| `police_station` | Jurisdiction handling the violation |
+| `created_datetime` | When the violation was recorded |
+| `validation_status` | approved / rejected / null |
+| `data_sent_to_scita` | Whether sent to enforcement system |
+
+**Key Statistics:**
+- 📍 80+ violation records
+- 🚗 10+ vehicle types
+- 🏛️ 20+ police stations
+- 📅 Data spanning Nov 2023 - Mar 2024
+
+---
+
+## 🚀 Live Demo
+
+**🌐 [View Live App](https://parkguard-ai.streamlit.app/)**
+
+The app is deployed on **Streamlit Cloud** and is accessible 24/7.
+
+---
